@@ -1,0 +1,15 @@
+h3{ font-size: small;}
+h2{ font-size: 35px;
+    text-align: center;
+    background-color: $color-azul;
+    padding: 1rem;
+    align-self: center;
+    color: white;
+    &:hover{transform: scale(1.1 , 1.1);}
+h4  {
+    text-align: center;
+    background-color: $color-naranja;
+    color: aliceblue;}}
+h1{text-align: center;
+background-color: $color-naranja;
+color: white;}

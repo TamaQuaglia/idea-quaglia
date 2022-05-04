@@ -1,0 +1,83 @@
+$color-naranja: #E78D1E;
+$color-azul: #18254F;
+@import"titulos";
+
+nav   { display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: top  0;       
+        font-style : italic;
+        }              
+ .header .navbar .collapse a
+        {color:$color-azul;  
+        &:hover{
+            color: $color-naranja;
+            text-decoration: overline;
+            }
+        }        
+.listas p{margin: 25px;
+        list-style-type:square;
+        color: black;
+        }               
+.main   {display: grid; 
+        margin-left: 0%;
+        }        
+#Deporte{
+        text-align: center;
+        background:linear-gradient(to top,white, $color-naranja);
+        }
+#sponsor {         
+         flex-direction: column;
+         h2{
+            width: 100%;} 
+            img { width: 200px; height: 200px;}
+            div{   display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;      
+                justify-content: center;
+                }
+        }     
+footer  {grid-area: footer;
+        background:$color-naranja;
+        border: solid  whitesmoke;
+        text-align: center;
+        } 
+
+#resumen { background-color: #E78D1E;
+         border: solid whitesmoke;}
+
+#fixture {grid-area: fixture;
+            background: #E78D1E;}
+
+.row {background:linear-gradient(to top,#e78d1e, whitesmoke);}        
+.canchas{        
+        width: 100%;
+        padding: 2rem;
+        }
+
+#arriba{font-size: small;
+        }
+
+#fixture, #Posiciones{
+        background:linear-gradient(to top,white, #E78D1E);
+        border : solid white;}
+
+.table{ margin-top: 2rem;
+        color: #E78D1E;
+        border-top: #E78D1E;}
+.carousel{
+        background: linear-gradient(#18254F, #E78D1E);       
+        }
+#titulo {
+        border: solid white;
+        margin-top: 2rem;
+        margin-bottom: 0%;
+}        
+
+.video{ text-align: center;
+        margin: auto;
+        background:linear-gradient(to top,#E78D1E, white);
+        }
+.parrafo {  background:linear-gradient(to top,white, #E78D1E);}   
+.formulario { padding: 2rem;
+                }   
